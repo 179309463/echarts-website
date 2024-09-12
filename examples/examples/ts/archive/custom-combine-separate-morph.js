@@ -529,10 +529,10 @@ console.log(app.config);
 
 $.when(
   $.getScript(
-    'https://fastly.jsdelivr.net/npm/echarts-simple-transform/dist/ecSimpleTransform.min.js'
+    '/vendor-cdn/echarts-simple-transform/dist/ecSimpleTransform.min.js'
   ),
   $.getScript(
-    'https://fastly.jsdelivr.net/npm/echarts-simple-option-player/dist/ecSimpleOptionPlayer.min.js'
+    '/vendor-cdn/echarts-simple-option-player/dist/ecSimpleOptionPlayer.min.js'
   )
 ).done(function () {
   run();
